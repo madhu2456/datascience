@@ -1,0 +1,41 @@
+# --------------------
+# 1. Virtual Environments (venv)
+# --------------------
+
+# Exclude the common virtual environment directory names
+venv/
+.venv/
+env/
+.env/
+
+# For macOS/Linux, excluding the standard Python build/temp directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --------------------
+# 2. Operating System Files
+# --------------------
+.DS_Store # macOS system files
+Thumbs.db # Windows thumbnail cache
+
+# --------------------
+# 3. Common Editor/IDE Files
+# --------------------
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (e.g., PyCharm, IntelliJ)
+.idea/
+
+# Vim/Nano swap files
+*~
+
+# --------------------
+# 4. Logs and Data
+# --------------------
+*.log
+*.sqlite3
+db.sqlite3 # Common Django database name
